@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "start": "tsx --env-file=.env src/main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.0",
+    "tsx": "^3.12.10",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "fastify": "^4.23.2",
+    "postgres": "^3.3.5"
+  }
+}
